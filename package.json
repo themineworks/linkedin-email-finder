@@ -1,0 +1,15 @@
+{
+  "name": "linkedin-email-finder",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Name plus company, SMTP-confirmed work email. Python, Node.js and cURL clients for the LinkedIn Email Finder on Apify, pay per result.",
+  "main": "linkedin_email_finder.mjs",
+  "scripts": {
+    "start": "node linkedin_email_finder.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  },
+  "license": "MIT",
+  "homepage": "https://themineworks.com/actors/linkedin-email-finder/"
+}
