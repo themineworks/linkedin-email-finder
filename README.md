@@ -5,7 +5,7 @@ Turn a person's name and company into their most likely work email address. Gene
 **Run it on Apify:** [apify.com/themineworks/linkedin-email-finder](https://apify.com/themineworks/linkedin-email-finder)
 **Docs, FAQ and pricing:** [themineworks.com/actors/linkedin-email-finder](https://themineworks.com/actors/linkedin-email-finder/)
 
-**Price:** $2.00 per 1,000 emails on Apify's free plan, down to $1.50 on higher plans, plus a $0.01 start fee per run. Failed and empty results are never charged.
+**Price:** From $1.50 per 1,000 emails on Apify's higher plans ($2.00 on the free plan), plus a $0.01 start fee per run. Failed and empty results are never charged.
 
 ## What it returns
 
@@ -13,7 +13,7 @@ Turn a person's name and company into their most likely work email address. Gene
 * SMTP-confirms the real pattern before returning it
 * Takes just a name and company, or a name and domain
 * No API key or LinkedIn login required
-* Zero charge when no pattern confirms
+* Emails no pattern confirms are never charged
 
 ## Quick start
 
@@ -141,7 +141,7 @@ You are not charged. If every generated pattern comes back rejected or unverifia
 
 ### What does it cost?
 
-Pay-per-event at $2 per 1,000 emails found ($0.002 each) plus a small per-run start fee. Unconfirmed lookups are never charged.
+Pay per result: from $1.50 per 1,000 emails on Apify's higher plans, $2.00 on the free plan, plus a $0.01 start fee per run. Unconfirmed lookups are never charged.
 
 ### Can I export the results to CSV or Excel?
 
